@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body{ 
+    background: url("https://cdn.discordapp.com/attachments/898010157253025862/1080730185898414080/mangrovebackground2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #444;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    height: 49.3vw;
+}
+
+.center h1{
+    text-align :center;
+    padding: 0 0 20px 0;
+}
+h1 {
+    color: rgb(108,102,82);
+    font-size: 2rem;
+    text-align: center;
+  }
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px
+}
+.middle{
+    text-align: center;
+    left: 15%;
+    transform: scale(1);
+    position: absolute;
+    font-size: 1rem;
+}
+
+.message {
+    font-weight: 600;
+    color: blue;
+}
+
+.body-content {
+    padding: 5px;
+
+}
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+  }
+  .container-slide-right {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    animation: 5s slide-right;
+    animation-fill-mode: forwards;  
+  }
+
+  @keyframes slide-right {
+    25% {left:50%; top:50%;}
+    100% {left: 65%; top:50%;}
+    }
+  .calendarcss {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    backdrop-filter: blur(100px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    width: 500px;
+  }
+  p {
+    backdrop-filter: blur(100px);
+  }
+
