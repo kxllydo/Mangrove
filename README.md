@@ -12,16 +12,16 @@ stay on track with their agenda.
 
 ## Installation
 
-Instructions for installing your project...
+1. Clone
+```
+git clone https://github.com/kxllydo/Mangrove.git
+```
 
-## Usage
-
-Instructions for using your project...
-
-## Contributing
-
-Instructions for contributing to your project...
-
-## License
-
-This project is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.
+2. Navigate to folder
+3. Install Python
+4. Install virtual environment if not already installed
+5. Install dependencies
+```
+pip install flask
+```
+6. Run the application
